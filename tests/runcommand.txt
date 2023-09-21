@@ -1,0 +1,5 @@
+npx playwright test : Runs all the testcases under tests folder in headless mode.
+npx playwright test –headed : Runs all the testcases under tests folder in headed mode.
+npx playwright test --headed –ui : Opens the playwright traces window
+npx playwright test XYZ--headed --ui : To run the (XYZ/specific) testcase under tests folder
+npx playwright test XYZ --headed --debug : Opens the debugger window in playwright.
